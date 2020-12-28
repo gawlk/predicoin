@@ -1,0 +1,18 @@
+name = "predicoin"
+type = "webpack"
+account_id = "4908369861af64706ae18324d72b6092"
+workers_dev = true
+route = ""
+zone_id = ""
+kv_namespaces = [
+  { binding = "BTC_VALUES", id = "5c0c1408490149f4b87bfb1fa9b90341", preview_id = "5c0c1408490149f4b87bfb1fa9b90341" },
+  { binding = "BTC_PREDICTIONS6H", id = "ff664fb84fa841c1b4f22a17b33bbae6", preview_id = "ff664fb84fa841c1b4f22a17b33bbae6" },
+  { binding = "BTC_PREDICTIONS12H", id = "21c2a2ee77e447ebab2918c79abf55da", preview_id = "21c2a2ee77e447ebab2918c79abf55da" },
+  { binding = "ETH_VALUES", id = "149fe3431fcb45a4953f6318af44e18a", preview_id = "149fe3431fcb45a4953f6318af44e18a" },
+  { binding = "ETH_PREDICTIONS6H", id = "7df854854fef4156abbbab498a7f8945", preview_id = "7df854854fef4156abbbab498a7f8945" },
+  { binding = "ETH_PREDICTIONS12H", id = "27bfe1d889a9468d9e91dfca9fffaaf2", preview_id = "27bfe1d889a9468d9e91dfca9fffaaf2" },
+]
+
+[site]
+bucket = "dist"
+entry-point = "workers-site"

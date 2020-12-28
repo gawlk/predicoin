@@ -1,0 +1,32 @@
+{
+  "name": "predicoin",
+  "description": "A simple app that shows predictions of the price of both BTC and ETH",
+  "version": "1.0.0",
+  "homepage": "https://predicoin.gawlk.workers.dev/",
+  "author": {
+    "name": "Kevin Gawlik (gawlk)",
+    "url": "https://github.com/gawlk"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && gulp",
+    "workers:dev": "vite build && wrangler dev",
+    "workers:publish": "yarn build && wrangler publish"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^0.2.0",
+    "vue": "^3.0.4"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.4",
+    "autoprefixer": "^9",
+    "del": "^6.0.0",
+    "favicons": "^6.2.0",
+    "gulp": "^4.0.2",
+    "gulp-inject": "^5.0.5",
+    "gulp-string-replace": "^1.1.2",
+    "postcss": "^7",
+    "tailwindcss": "^2.0.1-compat",
+    "vite": "1.0.0-rc.13"
+  }
+}

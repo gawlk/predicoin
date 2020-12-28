@@ -1,0 +1,47 @@
+{
+  "appName": "Predicoin",
+
+  "path": "/favicons/",
+
+  "background": "#000000",
+  "theme_color": "#000000",
+  "appleStatusBarStyle": "black-translucent",
+
+  "scope": "/",
+  "start_url": "/",
+
+  "display": "standalone",
+  "orientation": "portrait",
+
+  "logging": false,
+  "html": "icons.html",
+  "pipeHTML": true,
+  "replace": true,
+
+  "icons": {
+    "android": {
+      "background": "#000000",
+      "offset": 10
+    },
+    "appleIcon": {
+      "offset": 15
+    },
+    "appleStartup": {
+      "offset": 15
+    },
+    "coast": false,
+    "favicons": {
+      "background": "#000000",
+      "offset": 10
+    },
+    "firefox": {
+      "offset": 15,
+      "overlayGlow": false
+    },
+    "windows": {
+      "background": "#000000",
+      "offset": 10
+    },
+    "yandex": false
+  }
+}
